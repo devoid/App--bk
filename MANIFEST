@@ -1,0 +1,23 @@
+Build.PL
+Changes
+lib/App/bk.pm
+lib/App/bk/BikeStats.pm
+lib/App/bk/BikeStats/Ride.pm
+lib/App/bk/BikeStats/Rides.pm
+lib/App/bk/Command/add.pm
+lib/App/bk/Command/amend.pm
+lib/App/bk/Command/history.pm
+lib/App/bk/Command/random.pm
+lib/App/bk/Command/ride.pm
+Makefile.PL
+MANIFEST			This list of files
+META.json
+META.yml
+README
+scripts/bk
+t/00-load.t
+t/boilerplate.t
+t/manifest.t
+t/pod-coverage.t
+t/pod.t
+t/stats.t

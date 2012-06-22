@@ -1,0 +1,3 @@
+#!/usr/bin/perl
+use App::bk;
+App::bk->run;
