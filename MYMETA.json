@@ -1,0 +1,82 @@
+{
+   "abstract" : "A command for tracking bike ride statistics",
+   "author" : [
+      "Scott Devoid <sdevoid@gmail.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Module::Build version 0.4, CPAN::Meta::Converter version 2.112150",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "App-bk",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "App::Cmd" : 0,
+            "DateTime" : 0,
+            "DateTime::Format::ISO8601" : 0,
+            "DateTime::Format::Natural" : 0,
+            "Moose" : 0,
+            "MooseX::Storage" : 0,
+            "Test::More" : 0,
+            "Text::Table" : 0,
+            "Try::Tiny" : 0,
+            "common::sense" : 0
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "perl" : "5.006"
+         }
+      }
+   },
+   "provides" : {
+      "App::bk" : {
+         "file" : "lib/App/bk.pm",
+         "version" : "0.1"
+      },
+      "App::bk::BikeStats" : {
+         "file" : "lib/App/bk/BikeStats.pm",
+         "version" : "0.1"
+      },
+      "App::bk::BikeStats::Ride" : {
+         "file" : "lib/App/bk/BikeStats/Ride.pm",
+         "version" : "0.1"
+      },
+      "App::bk::BikeStats::Rides" : {
+         "file" : "lib/App/bk/BikeStats/Rides.pm",
+         "version" : 0
+      },
+      "App::bk::Command::add" : {
+         "file" : "lib/App/bk/Command/add.pm",
+         "version" : 0
+      },
+      "App::bk::Command::amend" : {
+         "file" : "lib/App/bk/Command/amend.pm",
+         "version" : 0
+      },
+      "App::bk::Command::history" : {
+         "file" : "lib/App/bk/Command/history.pm",
+         "version" : 0
+      },
+      "App::bk::Command::random" : {
+         "file" : "lib/App/bk/Command/random.pm",
+         "version" : 0
+      },
+      "App::bk::Command::ride" : {
+         "file" : "lib/App/bk/Command/ride.pm",
+         "version" : 0
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "0.1"
+}
