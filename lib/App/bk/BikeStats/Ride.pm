@@ -12,12 +12,12 @@ MooseX::Storage::Engine->add_custom_type_handler(
 );
 with Storage(format => 'JSON', io => 'File');
 has route => (
-    is       => 'ro',
+    is       => 'rw',
     isa      => 'Str',
     required => 1,
 );
 has start_time => (
-    is       => 'ro',
+    is       => 'rw',
     isa      => 'DateTime',
     builder  => '_build_start_time',
 );
