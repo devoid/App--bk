@@ -29,7 +29,7 @@ sub usage_desc { return "bk amend [id] [--key value]"; }
 sub opt_spec {
     my $self = shift @_;
     my @base_opts = (
-        ['--delete', "Delete a ride completely"],
+        ['delete', "Delete a ride completely"],
     );
     foreach my $rule (keys %$amendRules) {
         push(@base_opts, ["$rule:s", "Update $rule with new value"]);
